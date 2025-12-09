@@ -3,7 +3,7 @@ class RomanDigits {
         int tot=0;
         int prev=0;
         for(int i= s.length() -1; i>=0; i--){
-            char c = s.charAt(i);
+            char c =  s.charAt(i);
             int cur = getValue(c);
             if(cur<prev){
                 tot -= cur;
